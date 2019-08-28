@@ -13,6 +13,7 @@ $(TAR): assembler.o
 
 clean:
 	rm -rf *.o $(TAR)
+	rm -rf sample_input/*.o
 
 help:
 	@echo "The following options are provided with Make\n\t$$ make \t\t# build assembler\n\t$$ make clean \t# clean the build\n\t$$ make test \t# test cases"
